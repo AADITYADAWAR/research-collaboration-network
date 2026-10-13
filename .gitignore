@@ -1,0 +1,29 @@
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+*.env
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Node / React / Express
+node_modules/
+dist/
+build/
+.next/
+
+# Database & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# OS & Editor Bloat
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
